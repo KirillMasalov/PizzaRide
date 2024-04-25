@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd1314f90567e74b9969245e6a27327, type: 3}
+  m_Name: Kawasaki
+  m_EditorClassIdentifier: 
+  <Prefab>k__BackingField: {fileID: 7146894739708506375, guid: a6b634126db26494e995be0737cf50bc, type: 3}
+  <Name>k__BackingField: Kawasaki
+  <Cost>k__BackingField: 1000
+  <MaxSpeed>k__BackingField: 120
+  <Acceleration>k__BackingField: 0.25
+  <BreakDeceleration>k__BackingField: 0.8
+  <RotateAcceleration>k__BackingField: 9
+  <MaxRotateSpeed>k__BackingField: 130
+  <MaxSlantAngle>k__BackingField: 26

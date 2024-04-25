@@ -1,0 +1,264 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1714030201590740, "dur":25216, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714030201615964, "dur":88, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714030201616085, "dur":377, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714030201616667, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/PizzaRider_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1714030201617127, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1714030201617358, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1714030201617461, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1714030201617888, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1714030201618772, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1714030201616501, "dur":3625, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714030201620128, "dur":7699453, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714030209319581, "dur":230, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714030209319941, "dur":1973, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1714030201617133, "dur":3029, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714030201620166, "dur":1183, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714030201621350, "dur":722, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714030201622073, "dur":3906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714030201626003, "dur":547, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1714030201625985, "dur":566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1714030201626552, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714030201626831, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1714030201626829, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1714030201626950, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714030201627333, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1714030201627455, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714030201627712, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714030201627844, "dur":388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714030201628242, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":1, "ts":1714030201628241, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/PizzaRider.exe" }}
+,{ "pid":12345, "tid":1, "ts":1714030201628320, "dur":4791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider.exe" }}
+,{ "pid":12345, "tid":1, "ts":1714030201633299, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201634909, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201637080, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201639365, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201642912, "dur":3154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201646140, "dur":4073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201650334, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201653974, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201657030, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201659460, "dur":2676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201662216, "dur":4891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201667533, "dur":3606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201674654, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714030201671215, "dur":3650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201675041, "dur":3842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201678975, "dur":9442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201688527, "dur":3784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714030201692386, "dur":15287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1714030201707749, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1714030201709635, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1714030201711050, "dur":8275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1714030201719435, "dur":4341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1714030201723838, "dur":7595728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714030201617280, "dur":2910, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714030201620192, "dur":1257, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714030201621449, "dur":4653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714030201626110, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1714030201626103, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1714030201626238, "dur":535, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714030201626779, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1714030201626913, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714030201627024, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1714030201627147, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714030201627404, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1714030201627403, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1714030201627528, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714030201627737, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201627735, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201627864, "dur":737, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714030201629094, "dur":8975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201638161, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201641157, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201644803, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201647472, "dur":4319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201651872, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201654619, "dur":3417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201658120, "dur":2849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201661252, "dur":3376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201664743, "dur":4220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201669060, "dur":2389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201671527, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201674962, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201677883, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201680850, "dur":3608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201684568, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201687030, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201689186, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714030201691512, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1714030201693846, "dur":60012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714030201753927, "dur":7565642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714030201617134, "dur":3037, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714030201620175, "dur":1202, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714030201621377, "dur":4598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714030201626950, "dur":532, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1714030201627485, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/PizzaRider_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1714030201628269, "dur":5346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1714030201633632, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201637017, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201640319, "dur":3672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201644095, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201646351, "dur":3854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201650335, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201653387, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201655956, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201658282, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201660920, "dur":5123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201666213, "dur":3457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201669843, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201673019, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201675801, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201679203, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201682733, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201685225, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201687450, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201690489, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714030201692776, "dur":14890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1714030201708010, "dur":13615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1714030201721736, "dur":3586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714030201725396, "dur":7594175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714030201617118, "dur":3029, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714030201620158, "dur":1668, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714030201621826, "dur":4158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714030201625986, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1714030201626193, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714030201626339, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1714030201626482, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714030201626789, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714030201626782, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714030201626933, "dur":617, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714030201627555, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1714030201627974, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714030201628242, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/PizzaRider_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1714030201628701, "dur":8055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1714030201636870, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201638794, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201641686, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201645710, "dur":5424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201651225, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201654015, "dur":3368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201657474, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201660682, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201663536, "dur":6204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201670195, "dur":7266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201677706, "dur":3458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201681235, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201681232, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201681405, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714030201681531, "dur":3434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201685039, "dur":5708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201690825, "dur":17298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714030201708294, "dur":4380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714030201712822, "dur":9398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1714030201722323, "dur":3848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1714030201726260, "dur":7593307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714030201617084, "dur":3055, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714030201620142, "dur":5831, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714030201627125, "dur":573, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":5, "ts":1714030201627702, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1714030201627806, "dur":10842, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1714030201638650, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1714030201638995, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player17980c4f-inputdata.json" }}
+,{ "pid":12345, "tid":5, "ts":1714030201627700, "dur":11543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1714030201639507, "dur":72, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714030201639916, "dur":186529, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1714030201833832, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1714030201833831, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/PizzaRider_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1714030201834016, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1714030201835291, "dur":7484290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714030201617206, "dur":2977, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714030201620186, "dur":1275, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714030201621462, "dur":4515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714030201625997, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1714030201625985, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1714030201626144, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714030201626335, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1714030201626333, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1714030201626503, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714030201626991, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1714030201627207, "dur":1096, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714030201628747, "dur":4966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201633790, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201635966, "dur":3810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201639853, "dur":2731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201642662, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201645285, "dur":4318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201649705, "dur":3557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201653379, "dur":3892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201657348, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201660123, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201662981, "dur":4993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201668082, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201671178, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201673824, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201676299, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201679521, "dur":4018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201683723, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201686068, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201687803, "dur":2889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201690767, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714030201693501, "dur":8078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1714030201701778, "dur":21871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1714030201723757, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1714030201726025, "dur":7593552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714030201617323, "dur":2876, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714030201620203, "dur":1206, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714030201621410, "dur":4566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714030201626235, "dur":184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201626421, "dur":505, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201626927, "dur":685, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201627613, "dur":312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201627926, "dur":578, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201628506, "dur":478, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201628986, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Animation.Rigging.DocCodeExamples.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201629126, "dur":4475, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201633603, "dur":572, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201634176, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201634311, "dur":844, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201635159, "dur":288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201635449, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\PackageCache\\com.unity.burst@1.8.7\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030201635736, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":7, "ts":1714030201635812, "dur":253703, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\\\Documents\\GitHub\\PizzaRide\\Library\\PackageCache\\com.unity.burst@1.8.7\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":7, "ts":1714030201625985, "dur":263531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":7, "ts":1714030201891579, "dur":7408408, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":7, "ts":1714030209305357, "dur":12416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030209305356, "dur":12418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/PizzaRider_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714030209318301, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201617360, "dur":2848, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714030201620208, "dur":1263, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714030201621471, "dur":4516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714030201625988, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1714030201626132, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714030201626323, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1714030201626536, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714030201626785, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1714030201626925, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714030201627281, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1714030201627270, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1714030201627407, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714030201627716, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201627714, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Moto/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201627844, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714030201628721, "dur":9088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201637883, "dur":2998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201640992, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201644251, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201646870, "dur":4630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201651574, "dur":3387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201655055, "dur":5104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201660237, "dur":3420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201663776, "dur":4605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201668456, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201672111, "dur":3994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201676193, "dur":3286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201679552, "dur":3917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201686491, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714030201683721, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201686746, "dur":3010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201689869, "dur":17107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714030201707207, "dur":10549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1714030201719605, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Moto/PizzaRider_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1714030201723752, "dur":7595827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714030209324678, "dur":1087, "ph":"X", "name": "ProfilerWriteOutput" }
+,
