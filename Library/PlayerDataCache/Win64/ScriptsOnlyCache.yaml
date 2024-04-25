@@ -78,7 +78,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Animations.Rigging.TwoBoneIKConstraint
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
-    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
@@ -94,10 +93,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -184,12 +181,6 @@ ScriptsOnlyBuild:
     fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
     methodName: PointerExit
   - assembly: Assembly-CSharp
-    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
-    methodName: PointerEnter
-  - assembly: Assembly-CSharp
-    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
-    methodName: PointerExit
-  - assembly: Assembly-CSharp
     fullTypeName: UI.MainMenu.MainMenuUIController
     methodName: HideGarageElements
   - assembly: Assembly-CSharp
@@ -204,6 +195,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Garage.GarageController
     methodName: ChooseCurrentMotorcycle
+  - assembly: Assembly-CSharp
+    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
+    methodName: PointerEnter
+  - assembly: Assembly-CSharp
+    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
+    methodName: PointerExit
   - assembly: Assembly-CSharp
     fullTypeName: Garage.GarageController
     methodName: NextMotorcycle
@@ -274,26 +271,8 @@ ScriptsOnlyBuild:
     fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
     methodName: PointerExit
   - assembly: Assembly-CSharp
-    fullTypeName: General.TutorialController
-    methodName: NextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
-    methodName: PointerEnter
-  - assembly: Assembly-CSharp
-    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
-    methodName: PointerExit
-  - assembly: Assembly-CSharp
-    fullTypeName: General.TutorialController
-    methodName: NextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
-    methodName: PointerEnter
-  - assembly: Assembly-CSharp
-    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
-    methodName: PointerExit
-  - assembly: Assembly-CSharp
-    fullTypeName: General.TutorialController
-    methodName: NextPanel
+    fullTypeName: Ride.RideController
+    methodName: QuitFromRide
   - assembly: Assembly-CSharp
     fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
     methodName: PointerEnter
@@ -319,8 +298,26 @@ ScriptsOnlyBuild:
     fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
     methodName: PointerExit
   - assembly: Assembly-CSharp
-    fullTypeName: Ride.RideController
-    methodName: QuitFromRide
+    fullTypeName: General.TutorialController
+    methodName: NextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
+    methodName: PointerEnter
+  - assembly: Assembly-CSharp
+    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
+    methodName: PointerExit
+  - assembly: Assembly-CSharp
+    fullTypeName: General.TutorialController
+    methodName: NextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
+    methodName: PointerEnter
+  - assembly: Assembly-CSharp
+    fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
+    methodName: PointerExit
+  - assembly: Assembly-CSharp
+    fullTypeName: General.TutorialController
+    methodName: NextPanel
   - assembly: Assembly-CSharp
     fullTypeName: UI.MainMenu.Animations.MenuButtonAnimationTrigger
     methodName: PointerEnter
@@ -407,87 +404,87 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4700}
+      Script: {instanceID: 1570}
     - Class: 114
-      Script: {instanceID: 5388}
+      Script: {instanceID: 1620}
     - Class: 114
-      Script: {instanceID: 5632}
+      Script: {instanceID: 1688}
     - Class: 114
-      Script: {instanceID: 5696}
+      Script: {instanceID: 1796}
     - Class: 114
-      Script: {instanceID: 5740}
+      Script: {instanceID: 2132}
     - Class: 114
-      Script: {instanceID: 5930}
+      Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 6870}
+      Script: {instanceID: 2286}
     - Class: 114
-      Script: {instanceID: 6956}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 8612}
+      Script: {instanceID: 2908}
     - Class: 114
-      Script: {instanceID: 8950}
+      Script: {instanceID: 2992}
     - Class: 114
-      Script: {instanceID: 9520}
+      Script: {instanceID: 3014}
     - Class: 114
-      Script: {instanceID: 9586}
+      Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 10122}
+      Script: {instanceID: 3200}
     - Class: 114
-      Script: {instanceID: 10214}
+      Script: {instanceID: 3232}
     - Class: 114
-      Script: {instanceID: 10344}
+      Script: {instanceID: 3260}
     - Class: 114
-      Script: {instanceID: 10904}
+      Script: {instanceID: 3702}
     - Class: 114
-      Script: {instanceID: 11164}
+      Script: {instanceID: 4210}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 4268}
     - Class: 114
-      Script: {instanceID: 11428}
+      Script: {instanceID: 4456}
     - Class: 114
-      Script: {instanceID: 11572}
+      Script: {instanceID: 4672}
     - Class: 114
-      Script: {instanceID: 11674}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 13230}
+      Script: {instanceID: 4796}
     - Class: 114
-      Script: {instanceID: 13450}
+      Script: {instanceID: 5462}
     - Class: 114
-      Script: {instanceID: 13634}
+      Script: {instanceID: 5472}
     - Class: 114
-      Script: {instanceID: 14054}
+      Script: {instanceID: 5476}
     - Class: 114
-      Script: {instanceID: 15078}
+      Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 15306}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 15454}
+      Script: {instanceID: 5834}
     - Class: 114
-      Script: {instanceID: 15756}
+      Script: {instanceID: 6194}
     - Class: 114
-      Script: {instanceID: 15832}
+      Script: {instanceID: 6370}
     - Class: 114
-      Script: {instanceID: 15936}
+      Script: {instanceID: 6476}
     - Class: 114
-      Script: {instanceID: 16096}
+      Script: {instanceID: 6614}
     - Class: 114
-      Script: {instanceID: 16216}
+      Script: {instanceID: 6646}
     - Class: 114
-      Script: {instanceID: 17074}
+      Script: {instanceID: 6738}
     - Class: 114
-      Script: {instanceID: 17454}
+      Script: {instanceID: 6894}
     - Class: 114
-      Script: {instanceID: 17646}
+      Script: {instanceID: 7222}
     - Class: 114
-      Script: {instanceID: 17810}
+      Script: {instanceID: 7572}
     - Class: 114
-      Script: {instanceID: 17998}
+      Script: {instanceID: 7628}
     - Class: 114
-      Script: {instanceID: 18122}
+      Script: {instanceID: 7916}
     - Class: 114
-      Script: {instanceID: 18358}
+      Script: {instanceID: 7936}
     - Class: 114
-      Script: {instanceID: 18438}
+      Script: {instanceID: 8512}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -558,121 +555,121 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 5000}
+      Script: {instanceID: 1570}
     - Class: 114
-      Script: {instanceID: 5168}
+      Script: {instanceID: 1620}
     - Class: 114
-      Script: {instanceID: 5388}
+      Script: {instanceID: 1658}
     - Class: 114
-      Script: {instanceID: 5540}
+      Script: {instanceID: 1952}
     - Class: 114
-      Script: {instanceID: 5604}
+      Script: {instanceID: 1968}
     - Class: 114
-      Script: {instanceID: 5616}
+      Script: {instanceID: 2010}
     - Class: 114
-      Script: {instanceID: 5876}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 5930}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 6034}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 6366}
+      Script: {instanceID: 2992}
     - Class: 114
-      Script: {instanceID: 6466}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 6630}
+      Script: {instanceID: 3354}
     - Class: 114
-      Script: {instanceID: 8164}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 8598}
+      Script: {instanceID: 3830}
     - Class: 114
-      Script: {instanceID: 8950}
+      Script: {instanceID: 3840}
     - Class: 114
-      Script: {instanceID: 9070}
+      Script: {instanceID: 3974}
     - Class: 114
-      Script: {instanceID: 9368}
+      Script: {instanceID: 3976}
     - Class: 114
-      Script: {instanceID: 9428}
+      Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 4210}
     - Class: 114
-      Script: {instanceID: 9838}
+      Script: {instanceID: 4632}
     - Class: 114
-      Script: {instanceID: 9874}
+      Script: {instanceID: 4642}
     - Class: 114
-      Script: {instanceID: 10198}
+      Script: {instanceID: 5072}
     - Class: 114
-      Script: {instanceID: 10344}
+      Script: {instanceID: 5196}
     - Class: 114
-      Script: {instanceID: 10872}
+      Script: {instanceID: 5228}
     - Class: 114
-      Script: {instanceID: 11674}
+      Script: {instanceID: 5280}
     - Class: 114
-      Script: {instanceID: 12162}
+      Script: {instanceID: 5320}
     - Class: 114
-      Script: {instanceID: 12242}
+      Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 12506}
+      Script: {instanceID: 5588}
     - Class: 114
-      Script: {instanceID: 12962}
+      Script: {instanceID: 5784}
     - Class: 114
-      Script: {instanceID: 13374}
+      Script: {instanceID: 5874}
     - Class: 114
-      Script: {instanceID: 13398}
+      Script: {instanceID: 6044}
     - Class: 114
-      Script: {instanceID: 13550}
+      Script: {instanceID: 6178}
     - Class: 114
-      Script: {instanceID: 14358}
+      Script: {instanceID: 6194}
     - Class: 114
-      Script: {instanceID: 14826}
+      Script: {instanceID: 6206}
     - Class: 114
-      Script: {instanceID: 15182}
+      Script: {instanceID: 6266}
     - Class: 114
-      Script: {instanceID: 15262}
+      Script: {instanceID: 6284}
     - Class: 114
-      Script: {instanceID: 15378}
+      Script: {instanceID: 6316}
     - Class: 114
-      Script: {instanceID: 15454}
+      Script: {instanceID: 6370}
     - Class: 114
-      Script: {instanceID: 15744}
+      Script: {instanceID: 6438}
     - Class: 114
-      Script: {instanceID: 16064}
+      Script: {instanceID: 6738}
     - Class: 114
-      Script: {instanceID: 16216}
+      Script: {instanceID: 6762}
     - Class: 114
-      Script: {instanceID: 16404}
+      Script: {instanceID: 7220}
     - Class: 114
-      Script: {instanceID: 16582}
+      Script: {instanceID: 7292}
     - Class: 114
-      Script: {instanceID: 16718}
+      Script: {instanceID: 7326}
     - Class: 114
-      Script: {instanceID: 17182}
+      Script: {instanceID: 7404}
     - Class: 114
-      Script: {instanceID: 17454}
+      Script: {instanceID: 7414}
     - Class: 114
-      Script: {instanceID: 17570}
+      Script: {instanceID: 7572}
     - Class: 114
-      Script: {instanceID: 17690}
+      Script: {instanceID: 7602}
     - Class: 114
-      Script: {instanceID: 17726}
+      Script: {instanceID: 7684}
     - Class: 114
-      Script: {instanceID: 17762}
+      Script: {instanceID: 7942}
     - Class: 114
-      Script: {instanceID: 17822}
+      Script: {instanceID: 8058}
     - Class: 114
-      Script: {instanceID: 17950}
+      Script: {instanceID: 8092}
     - Class: 114
-      Script: {instanceID: 18122}
+      Script: {instanceID: 8124}
     - Class: 114
-      Script: {instanceID: 18246}
+      Script: {instanceID: 8344}
     - Class: 114
-      Script: {instanceID: 18358}
+      Script: {instanceID: 8434}
     - Class: 114
-      Script: {instanceID: 18462}
+      Script: {instanceID: 8482}
     - Class: 114
-      Script: {instanceID: 18760}
+      Script: {instanceID: 8520}
     - Class: 114
-      Script: {instanceID: 18994}
+      Script: {instanceID: 8704}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -706,838 +703,16 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: 49031f0904f24a521ccdec39bbd92cba
-    assemblyName: UnityEngine.TestRunner
-    namespaceName: UnityEngine.TestTools.TestRunner
-    className: PlaymodeTestsController
-  - hash:
-      serializedVersion: 2
-      Hash: 43739343f0d7dbb8a39ad59300e76c66
-    assemblyName: Assembly-CSharp
-    namespaceName: Coins
-    className: CoinsCollector
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: UnityEngine.TestRunner
-    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
-    className: RemoteTestResultSender
-  - hash:
-      serializedVersion: 2
-      Hash: 41ac98c9880a6f3758ca69dbaa1e7777
+      Hash: 21458b64fdf3b1c35574c2a0e82b859d
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
-    className: HorizontalLayoutGroup
+    className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 94f8303fca6ba25383fc62595e324b7b
+      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
-    className: LayoutElement
-  - hash:
-      serializedVersion: 2
-      Hash: f79da1dda07567b54288740d746db233
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: Rig
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnTransformChildrenChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: fa7c62595553866a25a1f687b1914fd2
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Toggle
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 3e1ca318be2f3de6bef674b3475b167a
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.Ride
-    className: UIController
-  - hash:
-      serializedVersion: 2
-      Hash: c92e03126f82226c2e517b0c562a3094
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.EventSystems
-    className: EventTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: be140ea01a11255b651c097661ac55b1
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: GroupTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 0de2439dd01f72064bf193066ae5581e
-    assemblyName: Assembly-CSharp
-    namespaceName: Modifiers
-    className: ModifiersController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnBecameVisibleMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: Modifiers.ModifiersTriggers
-    className: NearCarTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: b6e9886535744edccf6af223ea088f33
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.Ride.Panels
-    className: LosePanel
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: General
-    className: GameController
-  - hash:
-      serializedVersion: 2
-      Hash: 0286ed84936a6e3c4dba049ae21a7b1c
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: ActivationTrack
-  - hash:
-      serializedVersion: 2
-      Hash: b18151310f999106767addd7177d1a99
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Mask
-  - hash:
-      serializedVersion: 2
-      Hash: fd12039edca6f700a25af46a1678de27
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FlexibleColorPicker
-  - hash:
-      serializedVersion: 2
-      Hash: c3e946578158238180ae8899c62fa903
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.MainMenu
-    className: MainMenuUIController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnPointerClickMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnMouseExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 81f8db46ecd1881067ae1f0fa7538f1d
-    assemblyName: Assembly-CSharp
-    namespaceName: Rider
-    className: RagDollController
-  - hash:
-      serializedVersion: 2
-      Hash: 1b4a83f2a2f1a4def12cdc9223cce72c
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_FontAsset
-  - hash:
-      serializedVersion: 2
-      Hash: ab5566202b76d673d75c4a51a9981503
-    assemblyName: Assembly-CSharp
-    namespaceName: Ride
-    className: RideController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnJointBreak2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnButtonClickMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 4538e0f981a8cad7b927336f583c04ef
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: MultiReferentialConstraint
-  - hash:
-      serializedVersion: 2
-      Hash: a8d248dec537a23624f026f304409354
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: MultiPositionConstraint
-  - hash:
-      serializedVersion: 2
-      Hash: be8b55fc8a992741c6269f20cbc719b1
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: InputField
-  - hash:
-      serializedVersion: 2
-      Hash: ea1569413d805748b7cef2dcb4622c85
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Outline
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: Modifiers.ModifiersTriggers
-    className: OffRoadTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: PositionAsUV1
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: LevelCreature
-    className: LevelTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: f4f39b64f410b0cd98b49df4bad0eb7e
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TextContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 0249933f35dcc970b31eaae0159aebf9
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: ContentSizeFitter
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnTriggerExit2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 7b3c64c81450141ac9e92e4ac226a3ed
-    assemblyName: Assembly-CSharp
-    namespaceName: Coins
-    className: Coin
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnBeginDragMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 5b4a25aa1d5ed4097d0e43a01c09ecc5
-    assemblyName: Assembly-CSharp
-    namespaceName: General
-    className: MotoManagementController
-  - hash:
-      serializedVersion: 2
-      Hash: be140ea01a11255b651c097661ac55b1
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: GlobalMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.Animation.Rigging.DocCodeExamples
-    namespaceName: DocCodeExamples
-    className: CustomPlayableGraphEvaluator
-  - hash:
-      serializedVersion: 2
-      Hash: 132a7159a11aab0c53368b3f136e8b21
-    assemblyName: Assembly-CSharp
-    namespaceName: General
-    className: MotorcycleDataContainer
-  - hash:
-      serializedVersion: 2
-      Hash: dd81b51962b9bfa580a3b8887179c030
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: BoneRenderer
-  - hash:
-      serializedVersion: 2
-      Hash: c343da5828fddd0a899e69eb0f447fd5
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: AnimationTrack
-  - hash:
-      serializedVersion: 2
-      Hash: f6831ac80ec81c5d5b370c0ed0fee997
-    assemblyName: Unity.VisualScripting.Flow
-    namespaceName: Unity.VisualScripting
-    className: ScriptMachine
-  - hash:
-      serializedVersion: 2
-      Hash: 0cadf67970140b3a7997770202c43c70
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: AnimationPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 6f67dd406ddfc18c9b3f8a90725c6266
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: RawImage
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnParticleCollisionMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 2b006c27b595e55e112de0e713333574
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: RectMask2D
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnPointerExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: f6831ac80ec81c5d5b370c0ed0fee997
-    assemblyName: Unity.VisualScripting.State
-    namespaceName: Unity.VisualScripting
-    className: StateGraphAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnPointerDownMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_SpriteAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnEndDragMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 3c7774fac4d1eecbdbb74ff6f4c86471
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: MultiAimConstraint
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnTransformParentChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: Cars
-    className: EmptyBoxChecker
-  - hash:
-      serializedVersion: 2
-      Hash: 28873fe9170abb2910f2c4b88a93bb0f
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_ScrollbarEventHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: AnimatorMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: f60085eba621f0023ea84554fae25344
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_ColorGradient
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnMouseDragMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnMouseUpAsButtonMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: f413aa88a183e373cc0c369e5a245b99
-    assemblyName: Assembly-CSharp
-    namespaceName: Cars
-    className: CarMovementNode
-  - hash:
-      serializedVersion: 2
-      Hash: fcc569162a8d9bd9df34e8c9dee84212
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_SpriteAsset
-  - hash:
-      serializedVersion: 2
-      Hash: be140ea01a11255b651c097661ac55b1
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: SignalTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 34096a327d779b7c96a3e390f3559143
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.EventSystems
-    className: PhysicsRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnDragMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnToggleValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 46ffbaea01259c5c7ee677afefd93ea8
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TextMeshProUGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 6298a10412e94e11ad85ac6148c9dda1
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_SubMeshUI
-  - hash:
-      serializedVersion: 2
-      Hash: be140ea01a11255b651c097661ac55b1
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: ControlTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.EventSystems
-    className: BaseInput
-  - hash:
-      serializedVersion: 2
-      Hash: afe1800287c9574079eab3fea2622416
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: SignalEmitter
-  - hash:
-      serializedVersion: 2
-      Hash: c5562fc510d33161670a3f123163ed71
-    assemblyName: Assembly-CSharp
-    namespaceName: LevelCreature
-    className: LevelController
-  - hash:
-      serializedVersion: 2
-      Hash: f6831ac80ec81c5d5b370c0ed0fee997
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: MacroScriptableObject
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: VariablesSaver
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnTriggerEnterMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 260af1c9694d7a739f516e656c08ca71
-    assemblyName: Assembly-CSharp
-    namespaceName: Cars
-    className: CarSpawner
-  - hash:
-      serializedVersion: 2
-      Hash: f6831ac80ec81c5d5b370c0ed0fee997
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: DictionaryAsset
-  - hash:
-      serializedVersion: 2
-      Hash: bf2895e46f021f4fcdd0cc2decf06152
-    assemblyName: Assembly-CSharp
-    namespaceName: LevelCreature
-    className: LevelBuilder
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnMouseDownMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnCancelMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 146b6be4b58ff2fbeb37c197f769c350
-    assemblyName: Assembly-CSharp
-    namespaceName: General
-    className: AudioController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnTriggerStay2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 747284d692f6c45bae4955ed655ed04c
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TextMeshPro
-  - hash:
-      serializedVersion: 2
-      Hash: f6831ac80ec81c5d5b370c0ed0fee997
-    assemblyName: Unity.VisualScripting.Flow
-    namespaceName: Unity.VisualScripting
-    className: ScriptGraphAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 4e54b0d9f122b72488f144ea8a6d2e47
-    assemblyName: Assembly-CSharp
-    namespaceName: MotorCycle
-    className: CollisionHandler
-  - hash:
-      serializedVersion: 2
-      Hash: da3ed952c3a4306f7cd68098a0d9c3c8
-    assemblyName: Assembly-CSharp
-    namespaceName: Modifiers.ModifiersTriggers
-    className: SpeedModifierTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 10475406007e887e21aad616f1601baa
-    assemblyName: Assembly-CSharp
-    namespaceName: Coins
-    className: CoinsSpawner
-  - hash:
-      serializedVersion: 2
-      Hash: b2448dcaecf419157e32b7f106c14cac
-    assemblyName: Assembly-CSharp
-    namespaceName: Modifiers
-    className: ModifiersContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 13c320424e15e88a0527d7477a4188bb
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: SignalReceiver
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnInputFieldValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: f8cbb6aafc29c59223186357bb99751f
-    assemblyName: Assembly-CSharp
-    namespaceName: MotorCycle
-    className: MotorcycleConstraintsController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: Ride
-    className: LevelFinishTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 34096a327d779b7c96a3e390f3559143
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.EventSystems
-    className: Physics2DRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: 78a305aae8a9209b965dd56e5089ef7c
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.MainMenu.Animations
-    className: SettingsAnimationController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: SceneVariables
-  - hash:
-      serializedVersion: 2
-      Hash: bcdedb1b3a567eb05111be4716618ce1
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.EventSystems
-    className: EventSystem
-  - hash:
-      serializedVersion: 2
-      Hash: eb89cc9c55c1361dc02d4fea220cc023
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: AspectRatioFitter
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: SignalAsset
-  - hash:
-      serializedVersion: 2
-      Hash: df70afff09fcc26f54fe08084e6042ec
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_SubMesh
-  - hash:
-      serializedVersion: 2
-      Hash: ae182305e83caf798d90d75673d54d98
-    assemblyName: Assembly-CSharp
-    namespaceName: MotorCycle
-    className: AddtionalGravity
-  - hash:
-      serializedVersion: 2
-      Hash: dd7365d011fb5975838f523fc9b1668a
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_Settings
-  - hash:
-      serializedVersion: 2
-      Hash: 892b5093967522535ba980d28ce42084
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Slider
-  - hash:
-      serializedVersion: 2
-      Hash: 386b49b4d67cb2f075f9fc21c2a32551
-    assemblyName: Assembly-CSharp
-    namespaceName: MainMenu
-    className: MainMenuController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnCollisionStayMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 4fd7fb9beb564ee63ae5495b76c609f5
-    assemblyName: Assembly-CSharp
-    namespaceName: MotorCycle
-    className: MotoAudioController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: General
-    className: SceneTransition
-  - hash:
-      serializedVersion: 2
-      Hash: f6831ac80ec81c5d5b370c0ed0fee997
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: Variables
-  - hash:
-      serializedVersion: 2
-      Hash: 6995e17d039e24ccfb2837664ddf2284
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.MainMenu.Animations
-    className: MenuButtonAnimationTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnPointerUpMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnMoveMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: CoroutineRunner
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: RigTransform
-  - hash:
-      serializedVersion: 2
-      Hash: 98db835dd0659d490ded675102354289
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: ControlPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: UnityEngine.TestRunner
-    namespaceName: UnityEngine.TestRunner.Utils
-    className: TestRunCallbackListener
-  - hash:
-      serializedVersion: 2
-      Hash: 3a2a45d14e6c69ddb648ffc0e5e669e4
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.Ride
-    className: ModifiersLists
-  - hash:
-      serializedVersion: 2
-      Hash: 9cc8259b013a16da64576322419b30dd
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.Ride
-    className: ModifierValue
-  - hash:
-      serializedVersion: 2
-      Hash: f4155afbaafdde858729cc26f43a7cea
-    assemblyName: Assembly-CSharp
-    namespaceName: LevelCreature
-    className: LevelPartSpawnCars
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: UnityEngine.TestRunner
-    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
-    className: PlayerQuitHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnMouseOverMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 41ac98c9880a6f3758ca69dbaa1e7777
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: VerticalLayoutGroup
-  - hash:
-      serializedVersion: 2
-      Hash: e4a19a9f58bcfb30527230ed3f75c310
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: ChainIKConstraint
-  - hash:
-      serializedVersion: 2
-      Hash: 641df5f63a6b68e0b878008bb237cb66
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: MultiParentConstraint
-  - hash:
-      serializedVersion: 2
-      Hash: 37fe243da0131080f89891904200185c
-    assemblyName: Assembly-CSharp
-    namespaceName: MotorCycle
-    className: MotorcycleColorRenderer
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnSelectMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 099fb4479c00afbd645a6cd53d7f98a2
-    assemblyName: Assembly-CSharp
-    namespaceName: MotorCycle
-    className: InputController
-  - hash:
-      serializedVersion: 2
-      Hash: 43e5e6df2953bb968cbf3d8b25014a54
-    assemblyName: Assembly-CSharp
-    namespaceName: Cars
-    className: Car
-  - hash:
-      serializedVersion: 2
-      Hash: d3979debb537682dc47ae7d6efdf929d
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.MainMenu
-    className: GarageUIController
-  - hash:
-      serializedVersion: 2
-      Hash: 6133f815f9711595485e4066b511e579
-    assemblyName: Assembly-CSharp
-    namespaceName: Rider
-    className: RiderConstraintsController
-  - hash:
-      serializedVersion: 2
-      Hash: 1acffdc47de1ca014dae3d384c3d1086
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: ScrollRect
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.MainMenu.Buttons
-    className: ExitButton
-  - hash:
-      serializedVersion: 2
-      Hash: be140ea01a11255b651c097661ac55b1
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: MarkerTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 8656ff314e5afbda6a36f59c3656696d
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: BlendConstraint
-  - hash:
-      serializedVersion: 2
-      Hash: e021fae07b7c73933e18725f76623e21
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Scrollbar
-  - hash:
-      serializedVersion: 2
-      Hash: 1ed2c6278a809fcb97c4b0e845bbecc5
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Selectable
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1546,52 +721,28 @@ ScriptsOnlyBuild:
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: bf24a68462176a527987361028940fc7
-    assemblyName: Assembly-CSharp
-    namespaceName: MotorCycle
-    className: MotorSound
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnDeselectMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UIElements
-    className: PanelEventHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 142264d9d6b0842e37d4aad2e8ff56d0
+      Hash: 16c8cbd24a32f9d6625615e0e9098073
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
-    className: GridLayoutGroup
+    className: Image
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnTriggerExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 1b2dfb138e3eaa514331711c7d14ab73
+      Hash: f79da1dda07567b54288740d746db233
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
-    className: TwistCorrection
+    className: Rig
   - hash:
       serializedVersion: 2
-      Hash: 34fa63a30926bcf55d7323dae76be890
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_SelectionCaret
+      Hash: 132a7159a11aab0c53368b3f136e8b21
+    assemblyName: Assembly-CSharp
+    namespaceName: General
+    className: MotorcycleDataContainer
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnDropMessageListener
+      Hash: e0eabe277c76d4fbc07c1af9930c544f
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: TwistChainConstraint
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1601,291 +752,51 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnTriggerEnter2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnTriggerStayMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 8a30690c93e3f0a19cea8da208dc3813
-    assemblyName: Assembly-CSharp
-    namespaceName: MotorCycle
-    className: CameraMovement
-  - hash:
-      serializedVersion: 2
-      Hash: b907169c260d23c291c307a396b3c6f0
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: DampedTransform
-  - hash:
-      serializedVersion: 2
-      Hash: f21d00be0f609890fbae4a8f4b3d4305
-    assemblyName: Assembly-CSharp
-    namespaceName: Modifiers
-    className: DisposableModifier
-  - hash:
-      serializedVersion: 2
-      Hash: 848c5c3c98557fc2f2199206a7eaa69a
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 684b06ef3de8cea5fbf767704db4f3e4
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
-    className: AudioTrack
+    className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnCollisionExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 63815508dfd6cf329d5c593ac8e76888
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_StyleSheet
-  - hash:
-      serializedVersion: 2
-      Hash: f21d00be0f609890fbae4a8f4b3d4305
-    assemblyName: Assembly-CSharp
-    namespaceName: Modifiers
-    className: Modifier
-  - hash:
-      serializedVersion: 2
-      Hash: fdd2edc6bba20ee81eb100d345e70c57
-    assemblyName: Assembly-CSharp
-    namespaceName: Ride
-    className: RideTimer
-  - hash:
-      serializedVersion: 2
-      Hash: de9cf34f6e9dd28f7079a64d16e0d33d
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.Ride.Panels
-    className: WinPanel
-  - hash:
-      serializedVersion: 2
-      Hash: c1bcb9a74eb004f6149ad87027305932
-    assemblyName: Assembly-CSharp
-    namespaceName: General
-    className: SettingsController
-  - hash:
-      serializedVersion: 2
-      Hash: 1fa4ad70166a31d59fa2b88e9f185d0c
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.Ride
-    className: CoinsCounter
-  - hash:
-      serializedVersion: 2
-      Hash: 6a356b04c25c0bb008c1b24bf8b0f996
+      Hash: 94f8303fca6ba25383fc62595e324b7b
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
-    className: CanvasScaler
+    className: LayoutElement
   - hash:
       serializedVersion: 2
-      Hash: f6831ac80ec81c5d5b370c0ed0fee997
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: VariablesAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnBecameInvisibleMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnControllerColliderHitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: UnityEngine.TestRunner
-    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
-    className: PlayModeRunnerCallback
-  - hash:
-      serializedVersion: 2
-      Hash: b86e7f53968c596e4b9eae82e7f29918
-    assemblyName: Assembly-CSharp
-    namespaceName: LevelCreature
-    className: LevelPart
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: General
-    className: SavesManager
-  - hash:
-      serializedVersion: 2
-      Hash: dcd077328fb04c45e9e62a52eaf50b94
-    assemblyName: Assembly-CSharp
-    namespaceName: General
-    className: MotorcycleData
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnJointBreakMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 6f6e24349359269916d7a5e13615eea9
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.MainMenu
-    className: MainMenuCameraMovement
-  - hash:
-      serializedVersion: 2
-      Hash: 370b7b879ced34f75c826f699a6b4560
-    assemblyName: Assembly-CSharp
-    namespaceName: Cars
-    className: CarSpawnPoint
-  - hash:
-      serializedVersion: 2
-      Hash: 716757f49ed78775cf4b530baf3eff3a
-    assemblyName: Assembly-CSharp
-    namespaceName: Garage
-    className: GarageController
-  - hash:
-      serializedVersion: 2
-      Hash: 6498fc76484598db46c5c1a11bab42fa
+      Hash: 1ed2c6278a809fcb97c4b0e845bbecc5
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
+    className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.Animation.Rigging.DocCodeExamples
-    namespaceName: DocCodeExamples
-    className: CustomRigBuilderEvaluator
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnCollisionExit2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 21458b64fdf3b1c35574c2a0e82b859d
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 215840124a925ee499588458fa46183d
+      Hash: 43739343f0d7dbb8a39ad59300e76c66
     assemblyName: Assembly-CSharp
     namespaceName: Coins
-    className: CoinsSpawnPoint
+    className: CoinsCollector
   - hash:
       serializedVersion: 2
-      Hash: 6237f92becd6162fa105361ab9ce2a00
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_InputField
-  - hash:
-      serializedVersion: 2
-      Hash: 0e28d8006f33a4c6bf3ef39e20820f9c
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.EventSystems
-    className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: Cars
-    className: CarDestroyer
-  - hash:
-      serializedVersion: 2
-      Hash: 92d148a73836b8616de7a37936597b79
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.Ride.Animations
-    className: PauseMenuAnimationController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnScrollRectValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 060fa48a59769c5287ac00cb343ca5f0
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FCP_Persistence
-  - hash:
-      serializedVersion: 2
-      Hash: 7b3c64c81450141ac9e92e4ac226a3ed
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.MainMenu
-    className: MotorcycleGarageRotation
-  - hash:
-      serializedVersion: 2
-      Hash: 21b5228b35fedec0371f96e30a46036a
-    assemblyName: Assembly-CSharp
-    namespaceName: MotorCycle
-    className: MotorcycleMovementController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: ActivationPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: ec436a6adf3992ba493ae66c357cb09b
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: MultiRotationConstraint
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnInputFieldEndEditMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
+      Hash: ea1569413d805748b7cef2dcb4622c85
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
-      Hash: 0457610c64d362bd7071c8748ce17aab
-    assemblyName: Assembly-CSharp
-    namespaceName: Cars
-    className: SpeedChangeTrigger
+    className: Shadow
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
-    className: UnityOnPointerEnterMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: ed20134fc42dd3c35f78d6fd577e1210
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FCP_SpriteMeshEditor
-  - hash:
-      serializedVersion: 2
-      Hash: f2313814b771d9d5fda7e04d2381932f
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.Ride
-    className: Temperature
+    className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
-    className: UnityOnMouseUpMessageListener
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Ride
+    className: LevelFinishTrigger
   - hash:
       serializedVersion: 2
       Hash: f21d00be0f609890fbae4a8f4b3d4305
@@ -1902,134 +813,80 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
-    namespaceName: UI.MainMenu.Buttons
-    className: StartButton
-  - hash:
-      serializedVersion: 2
-      Hash: 3595e656d9b650e4f026a1f893d7e7f8
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: TwoBoneIKConstraint
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnScrollMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: Modifiers.ModifiersTriggers
-    className: OppositeLine
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
     namespaceName: Statistics
     className: StatisticsController
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnMouseEnterMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: BasicPlayableBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 16c8cbd24a32f9d6625615e0e9098073
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Image
-  - hash:
-      serializedVersion: 2
-      Hash: 0b409d554bb708a31b8d54eee14d0c1b
+      Hash: 78a305aae8a9209b965dd56e5089ef7c
     assemblyName: Assembly-CSharp
-    namespaceName: LevelCreature
-    className: LevelPartCoinsSpawn
+    namespaceName: UI.MainMenu.Animations
+    className: SettingsAnimationController
   - hash:
       serializedVersion: 2
-      Hash: a4d905db69ca7f45f45458ae380fb66f
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 63815508dfd6cf329d5c593ac8e76888
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 49031f0904f24a521ccdec39bbd92cba
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6f67dd406ddfc18c9b3f8a90725c6266
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
-    className: ToggleGroup
+    className: RawImage
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
-    className: UnityOnCollisionStay2DMessageListener
+    className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: bbd18fc68ceeefb10270c51811911485
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: AudioPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnSubmitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751d867553f413cde86fe5db0b02780d
+      Hash: bcdedb1b3a567eb05111be4716618ce1
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
-    className: StandaloneInputModule
+    className: EventSystem
   - hash:
       serializedVersion: 2
-      Hash: 1ed846c1ed9d69c8c2fcff9a6896b04f
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Text
+      Hash: 848c5c3c98557fc2f2199206a7eaa69a
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 6995e17d039e24ccfb2837664ddf2284
-    assemblyName: Assembly-CSharp
-    namespaceName: UI.Ride.Animations
-    className: PauseElementHover
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnDropdownValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: a03cf6f60c605d858f83449f4b4fc400
-    assemblyName: UnityEngine.TestRunner
-    namespaceName: UnityEngine.TestTools
-    className: BeforeAfterTestCommandState
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnCollisionEnter2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: e0eabe277c76d4fbc07c1af9930c544f
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: TwistChainConstraint
-  - hash:
-      serializedVersion: 2
-      Hash: c4a7b794641bf825d637142604e335a1
-    assemblyName: Assembly-CSharp
-    namespaceName: General
-    className: TutorialController
+      Hash: 684b06ef3de8cea5fbf767704db4f3e4
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
   - hash:
       serializedVersion: 2
       Hash: bf8e7513a6a15e836c34b697fcf2ccd7
@@ -2038,16 +895,88 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 4dca3d7b62fd6b95ea4fd6de82b02ea9
-    assemblyName: Unity.Animation.Rigging
-    namespaceName: UnityEngine.Animations.Rigging
-    className: OverrideTransform
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: ea1569413d805748b7cef2dcb4622c85
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd7fb9beb564ee63ae5495b76c609f5
+    assemblyName: Assembly-CSharp
+    namespaceName: MotorCycle
+    className: MotoAudioController
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6133f815f9711595485e4066b511e579
+    assemblyName: Assembly-CSharp
+    namespaceName: Rider
+    className: RiderConstraintsController
+  - hash:
+      serializedVersion: 2
+      Hash: 1fa4ad70166a31d59fa2b88e9f185d0c
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.Ride
+    className: CoinsCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 6498fc76484598db46c5c1a11bab42fa
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
-    className: Shadow
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 716757f49ed78775cf4b530baf3eff3a
+    assemblyName: Assembly-CSharp
+    namespaceName: Garage
+    className: GarageController
+  - hash:
+      serializedVersion: 2
+      Hash: 34fa63a30926bcf55d7323dae76be890
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: be8b55fc8a992741c6269f20cbc719b1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.MainMenu.Buttons
+    className: ExitButton
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -2059,7 +988,979 @@ ScriptsOnlyBuild:
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
-    className: UnityOnCollisionEnterMessageListener
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 146b6be4b58ff2fbeb37c197f769c350
+    assemblyName: Assembly-CSharp
+    namespaceName: General
+    className: AudioController
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.Animation.Rigging.DocCodeExamples
+    namespaceName: DocCodeExamples
+    className: CustomRigBuilderEvaluator
+  - hash:
+      serializedVersion: 2
+      Hash: f4155afbaafdde858729cc26f43a7cea
+    assemblyName: Assembly-CSharp
+    namespaceName: LevelCreature
+    className: LevelPartSpawnCars
+  - hash:
+      serializedVersion: 2
+      Hash: 7b3c64c81450141ac9e92e4ac226a3ed
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.MainMenu
+    className: MotorcycleGarageRotation
+  - hash:
+      serializedVersion: 2
+      Hash: c3e946578158238180ae8899c62fa903
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.MainMenu
+    className: MainMenuUIController
+  - hash:
+      serializedVersion: 2
+      Hash: dd81b51962b9bfa580a3b8887179c030
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: BoneRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: a4d905db69ca7f45f45458ae380fb66f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 3595e656d9b650e4f026a1f893d7e7f8
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: TwoBoneIKConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0249933f35dcc970b31eaae0159aebf9
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ed20134fc42dd3c35f78d6fd577e1210
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FCP_SpriteMeshEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: f413aa88a183e373cc0c369e5a245b99
+    assemblyName: Assembly-CSharp
+    namespaceName: Cars
+    className: CarMovementNode
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 747284d692f6c45bae4955ed655ed04c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: b2448dcaecf419157e32b7f106c14cac
+    assemblyName: Assembly-CSharp
+    namespaceName: Modifiers
+    className: ModifiersContainer
+  - hash:
+      serializedVersion: 2
+      Hash: c343da5828fddd0a899e69eb0f447fd5
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b86e7f53968c596e4b9eae82e7f29918
+    assemblyName: Assembly-CSharp
+    namespaceName: LevelCreature
+    className: LevelPart
+  - hash:
+      serializedVersion: 2
+      Hash: 0457610c64d362bd7071c8748ce17aab
+    assemblyName: Assembly-CSharp
+    namespaceName: Cars
+    className: SpeedChangeTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 099fb4479c00afbd645a6cd53d7f98a2
+    assemblyName: Assembly-CSharp
+    namespaceName: MotorCycle
+    className: InputController
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0286ed84936a6e3c4dba049ae21a7b1c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0de2439dd01f72064bf193066ae5581e
+    assemblyName: Assembly-CSharp
+    namespaceName: Modifiers
+    className: ModifiersController
+  - hash:
+      serializedVersion: 2
+      Hash: b18151310f999106767addd7177d1a99
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 6995e17d039e24ccfb2837664ddf2284
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.MainMenu.Animations
+    className: MenuButtonAnimationTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 5b4a25aa1d5ed4097d0e43a01c09ecc5
+    assemblyName: Assembly-CSharp
+    namespaceName: General
+    className: MotoManagementController
+  - hash:
+      serializedVersion: 2
+      Hash: f60085eba621f0023ea84554fae25344
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 13c320424e15e88a0527d7477a4188bb
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 34096a327d779b7c96a3e390f3559143
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 98db835dd0659d490ded675102354289
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 2b006c27b595e55e112de0e713333574
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: dd7365d011fb5975838f523fc9b1668a
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.Animation.Rigging.DocCodeExamples
+    namespaceName: DocCodeExamples
+    className: CustomPlayableGraphEvaluator
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Modifiers.ModifiersTriggers
+    className: OffRoadTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 6298a10412e94e11ad85ac6148c9dda1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Cars
+    className: CarDestroyer
+  - hash:
+      serializedVersion: 2
+      Hash: 386b49b4d67cb2f075f9fc21c2a32551
+    assemblyName: Assembly-CSharp
+    namespaceName: MainMenu
+    className: MainMenuController
+  - hash:
+      serializedVersion: 2
+      Hash: fcc569162a8d9bd9df34e8c9dee84212
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf24a68462176a527987361028940fc7
+    assemblyName: Assembly-CSharp
+    namespaceName: MotorCycle
+    className: MotorSound
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae182305e83caf798d90d75673d54d98
+    assemblyName: Assembly-CSharp
+    namespaceName: MotorCycle
+    className: AddtionalGravity
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 142264d9d6b0842e37d4aad2e8ff56d0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: c5562fc510d33161670a3f123163ed71
+    assemblyName: Assembly-CSharp
+    namespaceName: LevelCreature
+    className: LevelController
+  - hash:
+      serializedVersion: 2
+      Hash: 9cc8259b013a16da64576322419b30dd
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.Ride
+    className: ModifierValue
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformChildrenChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fdd2edc6bba20ee81eb100d345e70c57
+    assemblyName: Assembly-CSharp
+    namespaceName: Ride
+    className: RideTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0cadf67970140b3a7997770202c43c70
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 370b7b879ced34f75c826f699a6b4560
+    assemblyName: Assembly-CSharp
+    namespaceName: Cars
+    className: CarSpawnPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 6237f92becd6162fa105361ab9ce2a00
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 060fa48a59769c5287ac00cb343ca5f0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FCP_Persistence
+  - hash:
+      serializedVersion: 2
+      Hash: fa7c62595553866a25a1f687b1914fd2
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 892b5093967522535ba980d28ce42084
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 41ac98c9880a6f3758ca69dbaa1e7777
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: General
+    className: SceneTransition
+  - hash:
+      serializedVersion: 2
+      Hash: d3979debb537682dc47ae7d6efdf929d
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.MainMenu
+    className: GarageUIController
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1b4a83f2a2f1a4def12cdc9223cce72c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b6e9886535744edccf6af223ea088f33
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.Ride.Panels
+    className: LosePanel
+  - hash:
+      serializedVersion: 2
+      Hash: dcd077328fb04c45e9e62a52eaf50b94
+    assemblyName: Assembly-CSharp
+    namespaceName: General
+    className: MotorcycleData
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6995e17d039e24ccfb2837664ddf2284
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.Ride.Animations
+    className: PauseElementHover
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4538e0f981a8cad7b927336f583c04ef
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: MultiReferentialConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: 1ed846c1ed9d69c8c2fcff9a6896b04f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Modifiers.ModifiersTriggers
+    className: NearCarTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 3c7774fac4d1eecbdbb74ff6f4c86471
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: MultiAimConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: da3ed952c3a4306f7cd68098a0d9c3c8
+    assemblyName: Assembly-CSharp
+    namespaceName: Modifiers.ModifiersTriggers
+    className: SpeedModifierTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 641df5f63a6b68e0b878008bb237cb66
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: MultiParentConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: f21d00be0f609890fbae4a8f4b3d4305
+    assemblyName: Assembly-CSharp
+    namespaceName: Modifiers
+    className: Modifier
+  - hash:
+      serializedVersion: 2
+      Hash: 3e1ca318be2f3de6bef674b3475b167a
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.Ride
+    className: UIController
+  - hash:
+      serializedVersion: 2
+      Hash: 6a356b04c25c0bb008c1b24bf8b0f996
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 81a8001d00f8bb0dfb2d3e5f1869e72b
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: RigBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 92d148a73836b8616de7a37936597b79
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.Ride.Animations
+    className: PauseMenuAnimationController
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: LevelCreature
+    className: LevelTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: eb89cc9c55c1361dc02d4fea220cc023
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Cars
+    className: EmptyBoxChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 46ffbaea01259c5c7ee677afefd93ea8
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: de9cf34f6e9dd28f7079a64d16e0d33d
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.Ride.Panels
+    className: WinPanel
+  - hash:
+      serializedVersion: 2
+      Hash: b907169c260d23c291c307a396b3c6f0
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: DampedTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.MainMenu.Buttons
+    className: StartButton
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fd12039edca6f700a25af46a1678de27
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FlexibleColorPicker
+  - hash:
+      serializedVersion: 2
+      Hash: 4e54b0d9f122b72488f144ea8a6d2e47
+    assemblyName: Assembly-CSharp
+    namespaceName: MotorCycle
+    className: CollisionHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751d867553f413cde86fe5db0b02780d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: e021fae07b7c73933e18725f76623e21
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: df70afff09fcc26f54fe08084e6042ec
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 81f8db46ecd1881067ae1f0fa7538f1d
+    assemblyName: Assembly-CSharp
+    namespaceName: Rider
+    className: RagDollController
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a03cf6f60c605d858f83449f4b4fc400
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 37fe243da0131080f89891904200185c
+    assemblyName: Assembly-CSharp
+    namespaceName: MotorCycle
+    className: MotorcycleColorRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: f4f39b64f410b0cd98b49df4bad0eb7e
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ea1569413d805748b7cef2dcb4622c85
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 41ac98c9880a6f3758ca69dbaa1e7777
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: General
+    className: SavesManager
+  - hash:
+      serializedVersion: 2
+      Hash: f2313814b771d9d5fda7e04d2381932f
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.Ride
+    className: Temperature
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 260af1c9694d7a739f516e656c08ca71
+    assemblyName: Assembly-CSharp
+    namespaceName: Cars
+    className: CarSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: RigTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 34096a327d779b7c96a3e390f3559143
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: e4a19a9f58bcfb30527230ed3f75c310
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: ChainIKConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: ab5566202b76d673d75c4a51a9981503
+    assemblyName: Assembly-CSharp
+    namespaceName: Ride
+    className: RideController
+  - hash:
+      serializedVersion: 2
+      Hash: 7b3c64c81450141ac9e92e4ac226a3ed
+    assemblyName: Assembly-CSharp
+    namespaceName: Coins
+    className: Coin
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: bbd18fc68ceeefb10270c51811911485
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a8d248dec537a23624f026f304409354
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: MultiPositionConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4dca3d7b62fd6b95ea4fd6de82b02ea9
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: OverrideTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: c92e03126f82226c2e517b0c562a3094
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 10475406007e887e21aad616f1601baa
+    assemblyName: Assembly-CSharp
+    namespaceName: Coins
+    className: CoinsSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: General
+    className: GameController
+  - hash:
+      serializedVersion: 2
+      Hash: 21b5228b35fedec0371f96e30a46036a
+    assemblyName: Assembly-CSharp
+    namespaceName: MotorCycle
+    className: MotorcycleMovementController
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c1bcb9a74eb004f6149ad87027305932
+    assemblyName: Assembly-CSharp
+    namespaceName: General
+    className: SettingsController
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6f6e24349359269916d7a5e13615eea9
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.MainMenu
+    className: MainMenuCameraMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 8a30690c93e3f0a19cea8da208dc3813
+    assemblyName: Assembly-CSharp
+    namespaceName: MotorCycle
+    className: CameraMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 1acffdc47de1ca014dae3d384c3d1086
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Modifiers.ModifiersTriggers
+    className: OppositeLine
+  - hash:
+      serializedVersion: 2
+      Hash: 3a2a45d14e6c69ddb648ffc0e5e669e4
+    assemblyName: Assembly-CSharp
+    namespaceName: UI.Ride
+    className: ModifiersLists
+  - hash:
+      serializedVersion: 2
+      Hash: c4a7b794641bf825d637142604e335a1
+    assemblyName: Assembly-CSharp
+    namespaceName: General
+    className: TutorialController
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: Variables
   - hash:
       serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
@@ -2068,10 +1969,106 @@ ScriptsOnlyBuild:
     className: StateMachine
   - hash:
       serializedVersion: 2
-      Hash: 81a8001d00f8bb0dfb2d3e5f1869e72b
+      Hash: f21d00be0f609890fbae4a8f4b3d4305
+    assemblyName: Assembly-CSharp
+    namespaceName: Modifiers
+    className: DisposableModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 28873fe9170abb2910f2c4b88a93bb0f
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: bf2895e46f021f4fcdd0cc2decf06152
+    assemblyName: Assembly-CSharp
+    namespaceName: LevelCreature
+    className: LevelBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 43e5e6df2953bb968cbf3d8b25014a54
+    assemblyName: Assembly-CSharp
+    namespaceName: Cars
+    className: Car
+  - hash:
+      serializedVersion: 2
+      Hash: f8cbb6aafc29c59223186357bb99751f
+    assemblyName: Assembly-CSharp
+    namespaceName: MotorCycle
+    className: MotorcycleConstraintsController
+  - hash:
+      serializedVersion: 2
+      Hash: 215840124a925ee499588458fa46183d
+    assemblyName: Assembly-CSharp
+    namespaceName: Coins
+    className: CoinsSpawnPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 8656ff314e5afbda6a36f59c3656696d
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
-    className: RigBuilder
+    className: BlendConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: ec436a6adf3992ba493ae66c357cb09b
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: MultiRotationConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: afe1800287c9574079eab3fea2622416
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0b409d554bb708a31b8d54eee14d0c1b
+    assemblyName: Assembly-CSharp
+    namespaceName: LevelCreature
+    className: LevelPartCoinsSpawn
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1b2dfb138e3eaa514331711c7d14ab73
+    assemblyName: Unity.Animation.Rigging
+    namespaceName: UnityEngine.Animations.Rigging
+    className: TwistCorrection
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0e28d8006f33a4c6bf3ef39e20820f9c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
